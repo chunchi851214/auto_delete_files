@@ -11,7 +11,7 @@ def delete_files(part_file_name, rootdir = './'):
                 print("%s is removed" % file)
     return count
 #%%
-part_file_name = input("輸入想刪除檔案的關鍵字: ")
+part_file_name = input("輸入想刪除檔案的關鍵字 (Please enter the keywords in the file you wanna remove): ")
 count = delete_files(part_file_name)
 print("Totally remove {} files".format(count))
 os.system('pause')
